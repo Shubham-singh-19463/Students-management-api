@@ -1,0 +1,95 @@
+[
+    {
+        "id": 3,
+        "name": "sohan",
+        "age": 21,
+        "course": "python",
+        "marks": 70
+    },
+    {
+        "id": 4,
+        "name": "mohan",
+        "age": 21,
+        "course": "python",
+        "marks": 80
+    },
+    {
+        "id": 5,
+        "name": "karan",
+        "age": 21,
+        "course": "python",
+        "marks": 90
+    },
+    {
+        "id": 6,
+        "name": "karan",
+        "age": 16,
+        "course": "Django",
+        "marks": 45
+    },
+    {
+        "id": 6,
+        "name": "karan",
+        "age": 16,
+        "course": "Django",
+        "marks": 45
+    },
+    {
+        "id": 6,
+        "name": "karan",
+        "age": 16,
+        "course": "Django",
+        "marks": 45
+    },
+    {
+        "id": 6,
+        "name": "karan",
+        "age": 16,
+        "course": "Django",
+        "marks": 45
+    },
+    {
+        "id": 6,
+        "name": "karan",
+        "age": 16,
+        "course": "Django",
+        "marks": 45
+    },
+    {
+        "id": 3,
+        "name": "karan",
+        "age": 16,
+        "course": "Django",
+        "marks": 45
+    },
+    {
+        "id": 4,
+        "name": "karan",
+        "age": 16,
+        "course": "Django",
+        "marks": 45
+    },
+    {
+        "id": 5,
+        "name": "karan",
+        "age": 16,
+        "course": "Django",
+        "marks": 45
+    },
+    {
+        "id": 1,
+        "name": "raju",
+        "age": 1,
+        "course": "string",
+        "marks": 100,
+        "grade": "A+"
+    },
+    {
+        "id": 2,
+        "name": "shubham",
+        "age": 1,
+        "course": "string",
+        "marks": 56,
+        "grade": "C"
+    }
+]

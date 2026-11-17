@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field, computed_field
 
-class Student(BaseModel):
+class StudentResponse(BaseModel):
     id : int | None = Field(None)
     name : str = Field(..., max_length=100, min_length=2)
     age : int = Field(..., gt=0, lt=50)
@@ -22,6 +22,12 @@ class Student(BaseModel):
             return "C"
         else:
             return "F"
+
+class CreateStudent(BaseModel):
+    name : str = Field(..., max_length=100, min_length=2)
+    age : int = Field(..., gt=0, lt=50)
+    course : str = Field(...)
+    marks : int = Field(..., ge=0, le=100)
 
 class updateStudents(BaseModel):
     name : str | None = Field(None, max_length=100, min_length=2)
